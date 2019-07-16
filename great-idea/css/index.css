@@ -304,7 +304,7 @@ h1 {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  width: 480px;
+  width: 450px;
   font-size: 72px;
   text-align: center;
 }
@@ -476,7 +476,7 @@ ul {
   }
   .logo {
     margin: 0 auto;
-    padding-left: 100px;
+    padding-left: 110px;
   }
   .below-header {
     display: flex;
@@ -517,10 +517,61 @@ ul {
     margin-left: 0;
     margin-top: 20px;
   }
+
+  /* index.html mobile view */
+  .below-header {
+    flex-direction: column;
+    padding-top: 40px;
+  }
+  h1 {
+    width: 400px;
+    margin-top: 40px;
+  }
+  .button {
+    padding-bottom: 20px;
+  }
+  .circle-img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .top-content-child h4,
+  .bottom-content-child h4 {
+    margin-top: 20px;
+  }
+
+  .main-content {
+    margin: 0px auto;
+    padding: 10px;
+    width: 400px;
+  }
+
+  .top-content {
+    flex-direction: column;
+    width: 400px;
+    padding-right: 20px;
+  }
+
+  .middle-img {
+    margin: 20px 0;
+  }
+
+  .bottom-content {
+    flex-direction: column;
+  }
+
+  .bottom-content-child {
+    width: 400px;
+    padding-right: 20px;
+  }
+
+  address {
+    padding-left: 10px;
+  }
+
   footer {
     align-items: center;
     height: 50px;
   }
 }
-/* @media corrections */
-/* Fix Navigation Bar */
