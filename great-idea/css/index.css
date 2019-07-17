@@ -260,7 +260,7 @@ footer {
 .container {
   display: flex;
   flex-flow: column nowrap;
-  max-width: 876px;
+  width: 876px;
   margin: 0 auto;
 }
 
