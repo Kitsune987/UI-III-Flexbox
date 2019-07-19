@@ -498,7 +498,8 @@ ul {
     width: 98%;
   }
   .child-item {
-    flex-basis: 380px;
+    /* flex-basis: 380px; */
+    width: 98%;
     margin: 10px;
     height: 255px;
   }
